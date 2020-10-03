@@ -1,0 +1,300 @@
+{
+  "medio": {
+    "problemaUno": {
+      "pasoDosCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/wsLkwKJ/dos-Candidatos.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Muy bien, poco a poco vas resolviendo el problema. ¿Cuales son las distancias correctas para el paso dos teniendo en cuenta que partimos del nodo cuatro ?",
+        "returnText": "Has vuelto a la pantalla del paso dos con el conjunto de cadidatos.",
+        "failText": "Eso no es correcto. Ten en cuenta que el conjunto de candidatos será el conjunto de candidatos que teníamos en el paso anterior quitando el nodo en el que estamos actualmente. Prueba de nuevo. ",
+        "correctAnswer": "dos tres"
+      },
+      "pasoDosDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/4PDZCPs/dosdistancias.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Muy bien, esas son las distancias correctas. Vayamos al paso 3. ¿Qué nodo elegimos?.",
+        "returnText": "Has vuelto a la pantalla del paso dos con el conjunto de las distancias.",
+        "failText": "Lamento decirte que esas no son las distancias correspondientes al paso dos. Lo más importante es tener en cuenta desde que nodo partimos, en este caso el nodo cuatro, y hasta qué nodos podemos ir, en este caso a los nodos dos y tres. Sabiendo eso, debemos calcular si las distancias desde el nodo cuatro a alguno de los dos nodos sumada a la distancia que ya traíamos acumulada, es menor que la distancia anotada. En caso de ser así debemos cambiarla, pero en caso de ser mayor, debemos dejar la distancia cómo la teníamos. Prueba de nuevo y ánimo.  ",
+        "correctAnswer": "cuarenta treinta veinte diez"
+      },
+      "pasoDosNodo": {
+        "dataTableImageSource": "https://i.ibb.co/JHKnvpm/dosNodo.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Eso es, partimos del nodo cuatro para el paso dos, por tanto, ¿cuál sería el conjunto de candidatos?",
+        "returnText": "Has vuelto a la pantalla del paso dos con el nodo seleccionado.",
+        "failText": "No, ese no es el nodo correcto para el paso dos. Recuerda, el nodo del que partimos para el paso dos, debe salir del conjunto de candidatos del paso uno, es decir, debe ser el nodo dos, el nodo tres o el nodo cuatro. De esos tres nodos dichos anteriormente debemos ver cual es el nodo con el camino más corto y ese será nuestro nodo para el paso dos. Inténtalo de nuevo. ",
+        "correctAnswer": "cuatro"
+      },
+      "pasoInicioCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/PQ9hSxb/inicio-Candidatos.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Muy bien, este es el conjunto de los candidatos correcto para el paso de inicialización. ¿Sabrías decirme cuales son las distancias correctas para el paso de inicialización?",
+        "returnText": "Has vuelto a la pantalla del paso de inicialización con el conjunto de candidatos",
+        "failText": "No has acertado diciendo el conjunto de candidatos del paso de inicialización. Al ser el paso de inicialización, únicamente hemos seleccionado el nodo uno, por lo que el conjunto de candidatos es el resto. Prueba de nuevo a decir la solución al conjunto de candidatos del paso de inicialización.",
+        "correctAnswer": "dos tres cuatro cinco"
+      },
+      "pasoInicioDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/9t6wzLD/inicio-Distancias.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Muy bien, estas son las distancias correctas para el paso de inicialización. Nuestro siguiente paso, es el paso uno. ¿Desde qué nodo debemos partir en el paso uno?.",
+        "returnText": "Has vuelto a la pantalla del paso de inicialización con el conjunto de las distancias",
+        "failText": "Lo siento, pero esas no son las distancias correctas para el paso de inicialización. Para resolver las distancias, es necesario ver hasta que nodos podemos ir desde el nodo en el que nos encontramos, en este caso, desde el nodo 1. Como estamos en el paso de inicialización, aún no tenemos distancias previas, por lo que únicamente debemos poner las distancias desde el nodo 1, hasta el resto de los nodos a los que podemos ir. Prueba de nuevo a decir las distancias para el paso de inicialización. Ánimo. ",
+        "correctAnswer": "cincuenta treinta cien diez"
+      },
+      "pasoTresCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/rK9MBkv/tres-Candidatos.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Muy bien. El nodo dos es el único nodo que nos queda como nodo candidato. ¿Las distancias para este paso cuales serían?",
+        "returnText": "Has vuelto a la pantalla del paso tres con el conjunto de candidatos",
+        "failText": "Esa respuesta no es correcta. Piensa que teníamos como únicos candidatos los nodos dos y tres. Para este paso hemos elegido el nodo 3, así que solo nos queda un nodo como posible candidato. Prueba de nuevo a decir la respuesta. ",
+        "correctAnswer": "dos"
+      },
+      "pasoTresDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/SR8xRtX/tres-Distancias.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Exacto. Esas son las distancias correspondientes al paso tres. Muy bien hecho. Puesto que el único nodo que nos queda es el nodo 2 y no tiene ningún camino disponible, el resultado sería las distancias treinta y cinco, treinta, veinte, diez. Espero que hayas aprendido y te hayas entretenido. Muchas gracias por utilizar nuestra skill.",
+        "returnText": "Has vuelto a la pantalla del paso tres con el conjunto de distancias",
+        "failText": "Esas distancias no son correctas. Como venimos viendo hasta ahora, debemos tener en cuenta hasta qué nodos podemos ir desde el nodo en el que nos encontramos. En este caso, desde el nodo 3, únicamente podemos ir al nodo dos, por lo que únicamente debemos tener en cuenta si esta distancia cambia ya que el resto de distancias seguirá igual. Ánimo, ¿cuales son las distancias para el paso tres?",
+        "correctAnswer": "treinta y cinco treinta veinte diez"
+      },
+      "pasoTresNodo": {
+        "dataTableImageSource": "https://i.ibb.co/YhGynZb/tresNodo.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Muy bien, para el paso tres partimos del nodo tres. ¿Cuál sería el candidato que nos queda?",
+        "returnText": "Has vuelto a la pantalla del paso tres con el nodo seleccionado.",
+        "failText": "Ese nodo no es correcto para el paso tres. Recuerda que únicamente tenemos disponible los nodos dos y tres. ",
+        "correctAnswer": "tres"
+      },
+      "pasoUnoCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/q0nyJrd/uno-Candidatos.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Correcto. Dos Tres Cuatro es el conjunto de los candidatos. ¿Cuáles serían las distancias en el paso uno?",
+        "returnText": "Has vuelto a la pantalla del paso uno con el conjunto de candidatos.",
+        "failText": "Esa respuesta es incorrecta. El conjunto de candidatos para este paso sería el conjunto de candidatos que teníamos en el paso de inicialización descontando el nodo del que partimos, en este caso el nodo 5. Prueba a decirlo de nuevo. Ánimo",
+        "correctAnswer": "dos tres cuatro"
+      },
+      "pasoUnoDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/5L2qZ0c/uno-Distancias.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Exacto, esas son las distancias correctas para el paso uno. Continuamos con el paso 2. ¿Cuál es el nodo desde el que partimos para el paso dos? ",
+        "returnText": "Has vuelto a la pantalla del paso uno con el conjunto de distancias.",
+        "failText": "Incorrecto. Esas no son las distancias correctas para el paso uno. Para calcular las distancias es muy importante observar las distancias que teníamos en el paso anterior además de ver desde el nodo cinco hasta que nodo podemos ir, ya que únicamente podrían cambiar esas distancias. Desde el nodo cinco, únicamente podemos ir hasta el nodo 4, así que el resto debería ser igual y la distancia del nodo 1 al 4 sería la única distancia que podría cambiar. Calcula bien.  ",
+        "correctAnswer": "cincuenta treinta veinte diez"
+      },
+      "pasoUnoNodo": {
+        "dataTableImageSource": "https://i.ibb.co/YNGZ7vk/unoNodo.png",
+        "graphImageSource": "https://i.ibb.co/xG0Pb4d/enunciado.png",
+        "firstTimeText": "Muy bien, Partimos del nodo 5 para el paso uno. ¿Cuáles serían los nodos candidatos que nos quedan disponibles?.",
+        "returnText": "Has vuelto a la pantalla del paso uno con el nodo seleccionado.",
+        "failText": "Lo siento, pero ese no es el nodo correcto para el paso uno. Debes tener en cuenta que para seleccionar el nodo desde el que debemos partir ' +\n\t\t\t'en cada paso, tenemos que ver el conjunto de nodos candidatos y ver cuál es el que tiene el menor camino. Ánimo que lo conseguirás. Prueba a decirlo de nuevo.",
+        "correctAnswer": "cinco"
+      }
+    },
+    "problemaDos": {
+      "pasoDosCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/DWgKXRQ/paso-Dos-Candidatos-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso dos candidatos la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso dos candidatos del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso dos candidados del problema dos nivel medio",
+        "correctAnswer": "tres cuatro"
+      },
+      "pasoDosDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/bWbMfFQ/paso-Dos-Distancias-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso dos distncias la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso dos distancias del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso dos distancias del problema dos nivel medio",
+        "correctAnswer": "dos uno veinte y dos nueve"
+      },
+      "pasoDosNodo": {
+        "dataTableImageSource": "https://i.ibb.co/VvHpMr1/paso-Dos-Nodo-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso dos nodo la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso dos nodo del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso dos nodo del problema dos nivel medio",
+        "correctAnswer": "uno"
+      },
+      "pasoInicioCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/hKKzVZ7/paso-Inicio-Candidatos-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso inicio candidatos la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso inicio candidatos del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso inicio candidados del problema dos nivel medio",
+        "correctAnswer": "uno dos tres cuatro"
+      },
+      "pasoInicioDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/0q8ZvPp/paso-Inicio-Distancias-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso inicio distancias la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso inicio distancias del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso inicio distancias del problema dos nivel medio",
+        "correctAnswer": "dos uno infinito catorce"
+      },
+      "pasoTresCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/42SJm2N/paso-Tres-Candidatos-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso tres candidatos la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso tres candidatos del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso tres candidados del problema dos nivel medio",
+        "correctAnswer": "tres"
+      },
+      "pasoTresDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/NZwFvhb/paso-Tres-Distancias-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso tres distancias la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso tres distancias del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso tres distancias del problema dos nivel medio",
+        "correctAnswer": "dos uno once nueve"
+      },
+      "pasoTresNodo": {
+        "dataTableImageSource": "https://i.ibb.co/zs98rc4/paso-Tres-Nodo-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso tres nodo la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso tres nodo del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso tres nodo del problema dos nivel medio",
+        "correctAnswer": "cuatro"
+      },
+      "pasoUnoCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/yVB81bM/paso-Uno-Candidatos-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso uno candidatos la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso uno candidatos del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso uno candidados del problema dos nivel medio",
+        "correctAnswer": "uno tres cuatro"
+      },
+      "pasoUnoDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/QnhWZgw/paso-Uno-Distancias-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso uno distancias la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso uno distancias del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso uno distancias del problema dos nivel medio",
+        "correctAnswer": "dos uno infinito nueve"
+      },
+      "pasoUnoNodo": {
+        "dataTableImageSource": "https://i.ibb.co/0yp2SyC/paso-Uno-Nodo-P2.png",
+        "graphImageSource": "https://i.ibb.co/qs3B61w/grafo-dirigido.png",
+        "firstTimeText": "Estas en la pantalla del paso uno nodo la primera vez del problema dos nivel medio",
+        "returnText": "Has vuelto a la pantalla del paso uno nodo del problema dos nivel medio",
+        "failText": "Has fallado diciendo la respuesta del paso uno nodo del problema dos nivel medio",
+        "correctAnswer": "dos"
+      }
+    }
+  },
+  "dificil": {
+    "problemaUno": {
+      "pasoDosCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/kMvTCgm/paso-Dos-Candidatos-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso dos candidatos la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso dos candidatos del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso dos candidados del problema uno nivel dificil",
+        "correctAnswer": "tres cinco seis"
+      },
+      "pasoDosDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/cCMtHTd/paso-Dos-Distancias-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso dos distancias la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso dos distancias del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso dos distancias del problema uno nivel dificil",
+        "correctAnswer": "dos cuatro tres infinito ocho"
+      },
+      "pasoDosNodo": {
+        "dataTableImageSource": "https://i.ibb.co/WkL9ZMv/paso-Dos-Nodo-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso dos nodo la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso dos nodo del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso dos nodo del problema uno nivel dificil",
+        "correctAnswer": "cuatro"
+      },
+      "pasoInicioCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/fdDfTMY/paso-Inicio-Candidatos-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso inicio candidatos la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso inicio candidatos del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso inicio candidados del problema uno nivel dificil",
+        "correctAnswer": "dos tres cuatro cinco seis"
+      },
+      "pasoInicioDistancias": {
+        "dataTableImageSource": "ttps://i.ibb.co/SyqRjxS/paso-Inicio-Distancias-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso inicio distancias la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso inicio distancias del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso inicio distancias del problema uno nivel dificil",
+        "correctAnswer": "dos cinco infinito infinito ocho"
+      },
+      "pasoTresCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/2NbVFPC/paso-Tres-Candidatos-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso tres candidatos la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso tres candidatos del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso tres candidados del problema uno nivel dificil",
+        "correctAnswer": "cinco seis"
+      },
+      "pasoTresDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/JFVg6vK/paso-Tres-Distancias-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso tres distancias la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso tres distancias del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso tres distancias del problema uno nivel dificil",
+        "correctAnswer": "dos cuatro tres seis ocho"
+      },
+      "pasoTresNodo": {
+        "dataTableImageSource": "https://i.ibb.co/YfvbNr0/paso-Tres-Nodo-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso tres nodo la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso tres nodo del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso tres nodo del problema uno nivel dificil",
+        "correctAnswer": "tres"
+      },
+      "pasoUnoCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/m6kgRx0/paso-Uno-Candidatos-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso uno candidatos la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso uno candidatos del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso uno candidados del problema uno nivel dificil",
+        "correctAnswer": "tres cuatro cinco seis"
+      },
+      "pasoUnoDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/vj1wsKd/paso-Uno-Distancias-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso uno distancias la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso uno distancias del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso uno distancias del problema uno nivel dificil",
+        "correctAnswer": "dos cinco tres infinito ocho"
+      },
+      "pasoUnoNodo": {
+        "dataTableImageSource": "https://i.ibb.co/5TqrNvR/paso-Uno-Nodo-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso uno nodo la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso uno nodo del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso uno nodo del problema uno nivel dificil",
+        "correctAnswer": "dos"
+      },
+      "pasoCuatroNodo": {
+        "dataTableImageSource": "https://i.ibb.co/jkQwNM9/paso-Cuatro-Nodo-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso cuatro nodo la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso cuatro nodo del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso cuatro nodo del problema uno nivel dificil",
+        "correctAnswer": "cinco"
+      },
+      "pasoCuatroCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/PrrBYXF/paso-Cuatro-Candidatos-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso cuatro candidatos la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso cuatro candidatos del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso cuatro candidatos del problema uno nivel dificil",
+        "correctAnswer": "seis"
+      },
+      "pasoCuatroDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/P6TT22c/paso-Cuatro-Distancias-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso cuatro distancias la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso cuatro distancias del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso cuatro distancias del problema uno nivel dificil",
+        "correctAnswer": "dos cuatro tres seis siete"
+      }
+    }
+  }
+}

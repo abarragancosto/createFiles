@@ -1,0 +1,21 @@
+{
+  "name": "createFiles",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose || true"
+  },
+  "repository": {},
+  "keywords": [],
+  "author": "Alberto Barragán Costo",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "9.0.1",
+    "yargs": "15.4.1"
+  },
+  "devDependencies": {
+    "jest": "26.4.2",
+    "jest-junit": "11.1.0"
+  }
+}

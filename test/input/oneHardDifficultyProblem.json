@@ -1,0 +1,118 @@
+{
+  "dificil": {
+    "problemaUno": {
+      "pasoDosCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/kMvTCgm/paso-Dos-Candidatos-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso dos candidatos la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso dos candidatos del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso dos candidados del problema uno nivel dificil",
+        "correctAnswer": "tres cinco seis"
+      },
+      "pasoDosDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/cCMtHTd/paso-Dos-Distancias-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso dos distancias la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso dos distancias del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso dos distancias del problema uno nivel dificil",
+        "correctAnswer": "dos cuatro tres infinito ocho"
+      },
+      "pasoDosNodo": {
+        "dataTableImageSource": "https://i.ibb.co/WkL9ZMv/paso-Dos-Nodo-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso dos nodo la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso dos nodo del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso dos nodo del problema uno nivel dificil",
+        "correctAnswer": "cuatro"
+      },
+      "pasoInicioCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/fdDfTMY/paso-Inicio-Candidatos-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso inicio candidatos la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso inicio candidatos del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso inicio candidados del problema uno nivel dificil",
+        "correctAnswer": "dos tres cuatro cinco seis"
+      },
+      "pasoInicioDistancias": {
+        "dataTableImageSource": "ttps://i.ibb.co/SyqRjxS/paso-Inicio-Distancias-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso inicio distancias la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso inicio distancias del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso inicio distancias del problema uno nivel dificil",
+        "correctAnswer": "dos cinco infinito infinito ocho"
+      },
+      "pasoTresCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/2NbVFPC/paso-Tres-Candidatos-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso tres candidatos la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso tres candidatos del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso tres candidados del problema uno nivel dificil",
+        "correctAnswer": "cinco seis"
+      },
+      "pasoTresDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/JFVg6vK/paso-Tres-Distancias-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso tres distancias la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso tres distancias del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso tres distancias del problema uno nivel dificil",
+        "correctAnswer": "dos cuatro tres seis ocho"
+      },
+      "pasoTresNodo": {
+        "dataTableImageSource": "https://i.ibb.co/YfvbNr0/paso-Tres-Nodo-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso tres nodo la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso tres nodo del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso tres nodo del problema uno nivel dificil",
+        "correctAnswer": "tres"
+      },
+      "pasoUnoCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/m6kgRx0/paso-Uno-Candidatos-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso uno candidatos la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso uno candidatos del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso uno candidados del problema uno nivel dificil",
+        "correctAnswer": "tres cuatro cinco seis"
+      },
+      "pasoUnoDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/vj1wsKd/paso-Uno-Distancias-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso uno distancias la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso uno distancias del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso uno distancias del problema uno nivel dificil",
+        "correctAnswer": "dos cinco tres infinito ocho"
+      },
+      "pasoUnoNodo": {
+        "dataTableImageSource": "https://i.ibb.co/5TqrNvR/paso-Uno-Nodo-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso uno nodo la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso uno nodo del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso uno nodo del problema uno nivel dificil",
+        "correctAnswer": "dos"
+      },
+      "pasoCuatroNodo": {
+        "dataTableImageSource": "https://i.ibb.co/jkQwNM9/paso-Cuatro-Nodo-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso cuatro nodo la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso cuatro nodo del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso cuatro nodo del problema uno nivel dificil",
+        "correctAnswer": "cinco"
+      },
+      "pasoCuatroCandidatos": {
+        "dataTableImageSource": "https://i.ibb.co/PrrBYXF/paso-Cuatro-Candidatos-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso cuatro candidatos la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso cuatro candidatos del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso cuatro candidatos del problema uno nivel dificil",
+        "correctAnswer": "seis"
+      },
+      "pasoCuatroDistancias": {
+        "dataTableImageSource": "https://i.ibb.co/P6TT22c/paso-Cuatro-Distancias-P3.png",
+        "graphImageSource": "https://i.ibb.co/PWdcJKs/grafoP3.png",
+        "firstTimeText": "Estas en la pantalla del paso cuatro distancias la primera vez del problema uno nivel dificil",
+        "returnText": "Has vuelto a la pantalla del paso cuatro distancias del problema uno nivel dificil",
+        "failText": "Has fallado diciendo la respuesta del paso cuatro distancias del problema uno nivel dificil",
+        "correctAnswer": "dos cuatro tres seis siete"
+      }
+    }
+  }
+}
